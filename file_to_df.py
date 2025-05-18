@@ -112,9 +112,9 @@ class FileToDf:
             columntofilter (_string_): column to use as a filter
             value (_any_): value to filter the columnfilter
             columntogroup (_string_): column or columns to group by
-            columntoagg (_string_): column that the average will be calculated
+            columntoagg (_string_): column that the average will be
 
         Returns:
-            _type_: _description_
+         _dataframe_: dataframe
         """
         return self.dataframe[self.dataframe[columntofilter] == value].groupby(columntogroup)[columntoagg].median().reset_index()
