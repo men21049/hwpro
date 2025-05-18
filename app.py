@@ -19,7 +19,7 @@ st.dataframe(df.cvtodf())
 
 st.markdown(
     """
-    We are going to filter the dataset by female and male 
+    The idea is to analyze and visualize the number of likes a person receives by gender and age
     """
 )
 
