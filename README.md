@@ -1,7 +1,11 @@
 # Overview
 # hwpro
-Hellow World Project to display learning material and personal/professional Projects
-The Purpose of this project is to shocase practice and experience using github.
+This project uses streamlit Python library to analyze Facebook data available in Kaggle.
+
+The dataset we use is located at:
+https://www.kaggle.com/datasets/sheenabatra/facebook-data?resource=download
+
+The project uses streamlit and pandas to display the data analysis to display the results in a friendly way
 
 # Development Environment
 
